@@ -4,8 +4,8 @@ This project is designed to manage customers in a Shopify store through a simple
 
 ## Prerequisites
 
-- **Node.js** (v20+)
-- **npm** (comes with Node.js)
+- **Node.js** (v21.0.2)
+- **react** (v18+)
 - **Git**
 
 ## Setup Instructions
@@ -19,11 +19,14 @@ git clone <repository-url>
 cd <repository-folder>
 ```
 
-Create a .env file:
+### 2.Create a .env file:
+```bash
 PORT=3000
 SHOPIFY_ACCESS_TOKEN=<access_token_sent_on_mail>
 SHOPIFY_DOMAIN=<domain_sent_on_mail>
+```
 
+### 2.Run the api server:
 ```bash
 cd express-api
 npm install
