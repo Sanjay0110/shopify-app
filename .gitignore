@@ -1,2 +1,2 @@
-express-api/node_modules
-express-api/.env
+/express-api/.env/
+*/node_modules/

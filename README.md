@@ -19,14 +19,14 @@ git clone <repository-url>
 cd <repository-folder>
 ```
 
-### 2.Create a .env file:
+### 2. Create a .env file:
 ```bash
 PORT=3000
 SHOPIFY_ACCESS_TOKEN=<access_token_sent_on_mail>
 SHOPIFY_DOMAIN=<domain_sent_on_mail>
 ```
 
-### 2.Run the api server:
+### 2. Run the API Server:
 ```bash
 cd express-api
 npm install
